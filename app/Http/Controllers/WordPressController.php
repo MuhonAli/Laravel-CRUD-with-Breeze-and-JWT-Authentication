@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use GuzzleHttp\Client;
 
-class WordPressController extends Controller
+class WordPressController extends Controller 
 {
     /**
      * Fetch all posts from the WordPress REST API and display them.
